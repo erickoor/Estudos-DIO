@@ -1,11 +1,16 @@
 body {
     background: #f7f7f7;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
+
 
 .photo {
     border: 1px solid #505050;
     border-radius: 150px;
+    margin-left: 38%;
+    margin-top: 3%;
 }
 
 #title, .subtitle, .post_title {
@@ -15,6 +20,12 @@ body {
 #title {
     font-size: 40px;
     text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 35px;
 }
 
 a {
@@ -44,8 +55,21 @@ a {
     margin: 0;
     margin-bottom: 15px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .post_img {
     margin-bottom: 15px;
+    width: 100%;
+}
+
+.contacts_list {
+    list-style-type: none;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.contacts_list li a {
+    text-decoration: none;
 }
